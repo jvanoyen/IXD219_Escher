@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      MC Escher Portfolio Site
+    </title>
+
+    <style>
+    header {
+
+position: relative;
+z-index: 10;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(90deg, #F1E8BA 50%, #ffFFFF 50%);}
+
+}
+
+
+
+ul {
+margin: 30px auto;
+padding: 0 20px;
+text-align: center;
+}
+
+li {
+color: #2C3031;
+font-family: 'Bungee Shade', cursive;
+font-size: 24px;
+font-weight: 250;
+display: inline-block;
+width: 250px;
+}
+
+
+
+.text {
+position: relative;
+z-index: 3;
+width: 200px;
+text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 22px;
+font-weight: 250;
+margin: 120px auto;
+}
+
+
+img {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  z-index: 10;
+
+}
+
+.grid {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 5px;
+
+}
+
+.nav {
+  color: black;
+}
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
+  <header>
+
+    <ul>
+      <li>About</li>
+      <li><a href="work.html"><div class="nav">Work</div></a></li>
+      <li><a href="contact.html"><div class="nav">Contact</div></a></li>
+    </ul>
+
+  </header>
+
+  <body>
+    <div class="grid">
+      <div class="col1 about-image">
+        <img src="escher-about.jpg">
+      </div>
+
+      <div class="col2 text"><p>
+        Maurits Cornelius Escher (1898-1972) was a Dutch graphic
+        artist who was heavily influenced by graphical
+        representations of math and physics.<br>
+Escher’s work often exhibits visual
+language utilizing symmetry, perspective,
+reflection, tessellations and explorations of
+infinity.</p></div>
+      </div>
+    </div>
+
+  </body>
+
+</html>

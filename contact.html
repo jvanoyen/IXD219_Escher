@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      MC Escher Portfolio Site
+    </title>
+
+    <style>
+header {
+  padding: 15px 15px 15px 15px;
+  position: relative;
+  z-index: 10;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(90deg, #87B7B1 50%, #F1E8BA 50%);}
+}
+
+ul {
+margin: 30px auto;
+padding: 0 20px;
+text-align: center;
+}
+
+li {
+color: #2C3031;
+font-family: 'Bungee Shade', cursive;
+font-size: 24px;
+font-weight: 250;
+display: inline-block;
+width: 250px;
+}
+
+.text {
+position: relative;
+z-index: 3;
+width: 200px;
+text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px;
+font-weight: 250;
+margin: 300px auto;
+}
+
+img {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  z-index: 10;
+}
+
+.grid {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px 5px;
+}
+
+.col1{
+  grid-row: 1 / 3;
+}
+
+.nav {
+  color: black;
+}
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
+  <header>
+    <ul>
+      <li><a href="about.html"><div class="nav">About</div></a></li>
+      <li><a href="work.html"><div class="nav">Work</div></a></li>
+      <li>Contact</li>
+    </ul>
+
+  </header>
+
+  <body>
+    <div class="grid">
+      <div class="col1 about-image">
+        <img src="heads.gif">
+      </div>
+
+      <div class="col2 text"><p>
+The M.C. Escher Company B.V.<br>
+P.O. Box 101<br>
+3740 AC Baarn<br>
+the Netherlands<br>
+Tel: + 31-(0)35-541.80.41<br>
+Fax: +31-(035)-541.17.66<br>
+Email: info@mcescher.com</p></div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
